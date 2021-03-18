@@ -10,7 +10,7 @@ const Menu = () => {
           <LiMenu>Home</LiMenu>
           <LiMenu>Sobre</LiMenu>
           <LiMenu>Muuuural</LiMenu>
-          <LiMenu>Doe</LiMenu>
+          <LiMenu>Contato</LiMenu>
         </Menula>
       </nav>
     </div>

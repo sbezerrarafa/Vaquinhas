@@ -17,6 +17,13 @@ export const EstiloBtn = styled.button`
     align-items:center;
     margin-left: 50px;
     margin-top: 150px;
+    transition: 0.5s all ease-out;
+&:hover{
+    cursor: pointer;
+    transform: scale(1.08);
+    background-color: #ffffff;
+    
 }
+
 
 `;
