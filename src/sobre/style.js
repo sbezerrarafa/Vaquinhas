@@ -6,7 +6,8 @@ export const Container = styled.div`
 `;
 
 export const Titulo = styled.h2`
-  font-size: 30px;
+  color: #32579d;
+  font-size: 48px;
   text-align: center;
 `;
 
@@ -19,12 +20,13 @@ export const BoxImagem = styled.div`
   background: url('../../img/vacao.jpg');
   background-size: cover;
   width: 50%;
-  height: 30vh;
+  height: 400px;
 `;
 
 export const BoxVaca = styled.p`
   margin-left: 2rem;
   font-size: 20px;
+  line-height: 1.5;
   width: 50%;
-  color: blue;
+  color: #32579d;
 `;

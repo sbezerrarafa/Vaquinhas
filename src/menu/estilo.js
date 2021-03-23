@@ -1,5 +1,10 @@
 import styled from 'styled-components';
 
+export const Navbar = styled.nav`
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+`;
 export const Menula = styled.ul`
   display: flex;
   justify-content: flex-end;
@@ -13,17 +18,21 @@ export const Menula = styled.ul`
 `;
 
 export const LiMenu = styled.li`
-  padding: 25px;
-  list-style: none;
-  color: #32579d;
-  font-weight: bold;
-  font-size: 16px;
-  text-transform: uppercase;
+  a {
+    display: inline-block;
+    padding: 25px;
+    list-style: none;
+    color: #32579d;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
 `;
 
 export const Logo = styled.div`
   position: absolute;
-  top: 15px;
+  top: 3px;
   margin-left: 70px;
   transform: translateX(-50%);
   width: 100px;

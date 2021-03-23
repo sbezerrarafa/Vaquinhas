@@ -1,18 +1,27 @@
 import React from 'react';
-import { Menula, LiMenu, Logo } from './estilo';
+import AnchorLink from 'react-anchor-link-smooth-scroll';
+import { Navbar, Menula, LiMenu, Logo } from './estilo';
 
 const Menu = () => {
   return (
     <div>
-      <nav>
+      <Navbar>
         <Logo />
         <Menula>
-          <LiMenu>Home</LiMenu>
-          <LiMenu>Sobre</LiMenu>
-          <LiMenu>Muuuural</LiMenu>
-          <LiMenu>Contato</LiMenu>
+          <LiMenu>
+            <AnchorLink href="#header">Home</AnchorLink>
+          </LiMenu>
+          <LiMenu>
+            <AnchorLink href="#sobre">Sobre</AnchorLink>
+          </LiMenu>
+          <LiMenu>
+            <AnchorLink href="#mural">Mural</AnchorLink>
+          </LiMenu>
+          <LiMenu>
+            <AnchorLink href="#formulario">Contato</AnchorLink>
+          </LiMenu>
         </Menula>
-      </nav>
+      </Navbar>
     </div>
   );
 };

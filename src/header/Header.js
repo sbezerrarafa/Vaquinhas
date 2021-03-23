@@ -4,7 +4,7 @@ import Btn from '../botao/Btn';
 
 const Header = () => {
   return (
-    <ImagemFundo>
+    <ImagemFundo id="header">
       <Titulo>Vaquinhas</Titulo>
       <Btn />
     </ImagemFundo>

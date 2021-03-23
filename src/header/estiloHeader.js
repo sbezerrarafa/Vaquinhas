@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 export const ImagemFundo = styled.div`
   display: inline-block;
+  padding-top: 30px;
   width: 100%;
   height: 500px;
   background: url('../../img/vacao.jpg') center center;
