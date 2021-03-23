@@ -10,7 +10,8 @@ import {
 } from './style';
 
 const Contato = () => {
-  const handleClick = () => {
+  const handleClick = (event) => {
+    event.preventDefault();
     alert('Obrigada, em breve te retornaremos!');
   };
   return (
