@@ -8,6 +8,7 @@ const Menu = () => {
       <Navbar>
         <Logo />
         <Menula>
+       
           <LiMenu>
             <AnchorLink href="#header">Home</AnchorLink>
           </LiMenu>
